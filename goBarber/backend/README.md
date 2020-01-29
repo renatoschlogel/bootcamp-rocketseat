@@ -3,7 +3,7 @@
 ## Configurando a estrutura:
   1. criando projeto               : yarn init;
   2. adicionando o express         : yarn add express;
-  3. criar pasa src;
+  3. criar pasta src;
   4. Criar arquivos app.js, routes.js e server.js;  
 
   - Faz o carregamento automatico das alteracoes feitas;
