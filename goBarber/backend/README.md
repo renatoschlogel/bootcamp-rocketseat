@@ -34,6 +34,11 @@
    "request": "attach",
     "protocol": "inspector"
   ```
-  
 
-  
+## ESlint, Prettier & EditorConfig
+
+  * Adicionar a depencia eslint     : yarn add eslint -D
+  * iniciar arquivo de configuração : yarn eslint --init
+  * Prettier :yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+
+## Configurando o Sequelize;
