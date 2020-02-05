@@ -42,3 +42,12 @@
   * Prettier :yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 
 ## Configurando o Sequelize;
+  * Adicionando dependencia: yarn add sequelize;
+  * Adicionando dependencia: yarn add sequelize-cli -D;
+
+# Cadastro e Autenticação de usuario:
+
+## Migration de Usuario:
+  1. Criando a migration : yarn sequelize migration:create --name=create-users;
+  2 rodar migration      : yarn sequelize db:migrate;
+
