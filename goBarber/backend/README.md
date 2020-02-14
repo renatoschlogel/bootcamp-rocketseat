@@ -48,6 +48,7 @@
 # Cadastro e Autenticação de usuario:
 
 ## Migration de Usuario:
-  1. Criando a migration : yarn sequelize migration:create --name=create-users;
-  2 rodar migration      : yarn sequelize db:migrate;
+  1. Criando a migration        : yarn sequelize migration:create --name=create-users;
+  2. rodar migration            : yarn sequelize db:migrate;
+  2. defazer a ultima migration : yarn sequelize db:migrate:undo;
 

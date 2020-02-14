@@ -4,7 +4,7 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.createTable('users', {
       id:{
-        type: Sequelize.INTERGER,
+        type: Sequelize.INTEGER,
         allowNull: false,
         autoIncrement: true,
         primaryKey: true
@@ -30,7 +30,7 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false
       },
-      update_at:{
+      updated_at:{
         type: Sequelize.DATE,
         allowNull: false
       },
