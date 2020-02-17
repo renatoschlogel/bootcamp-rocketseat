@@ -52,3 +52,6 @@
   2. rodar migration            : yarn sequelize db:migrate;
   2. defazer a ultima migration : yarn sequelize db:migrate:undo;
 
+## Gerar hash da senha
+  1. yarn add bcryptjs
+
