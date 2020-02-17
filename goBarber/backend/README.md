@@ -53,5 +53,8 @@
   2. defazer a ultima migration : yarn sequelize db:migrate:undo;
 
 ## Gerar hash da senha
-  1. yarn add bcryptjs
+  1. para criptografar          : yarn add bcryptjs
+
+# JWT - token
+  1 . para gerar o token        : yarn add jsonwebtoken;
 
