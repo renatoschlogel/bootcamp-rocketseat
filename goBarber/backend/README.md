@@ -58,3 +58,6 @@
 # JWT - token
   1 . para gerar o token        : yarn add jsonwebtoken;
 
+# Validação dos dados de entrada
+  1. para efetuar as validaçãoes: yarn add yup 
+
